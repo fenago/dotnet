@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: echo "Setting up the environment"
+    command: dotnet restore
+
+# List any extensions you want pre-installed
+vscode:
+  extensions:
+    - ms-dotnettools.csharp
